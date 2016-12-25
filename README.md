@@ -15,5 +15,5 @@ vagrant up
 
 cd ~/work/itamae/itamae-rails
 bundle install --path vendor/bundler
-bundle exec itamae ssh --user vagrant --host 192.168.33.250 -y node/rails/development.yaml rails.rb
+bundle exec itamae ssh --user vagrant --host 192.168.33.250 -y node/rails/development.yml rails.rb
 ```
